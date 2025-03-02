@@ -1,83 +1,29 @@
 <!DOCTYPE html>
-<html lang="id">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pemenang Undian Bank Meriah Euy</title>
-    <style>
-        body {
-            font-family: 'Times New Roman', Times, serif;
-            margin: 40px;
-            padding: 20px;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        .container {
-            max-width: 600px;
-            background-color: white;
-            padding: 20px;
-            border: 1px solid #ddd;
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-            margin: auto;
-        }
-        h1, h2 {
-            text-align: center;
-        }
-        .header, .footer {
-            text-align: center;
-            font-weight: bold;
-        }
-        .content {
-            margin-top: 20px;
-        }
-        .signature {
-            margin-top: 40px;
-            text-align: right;
-        }
-    </style>
+    <title>Color Grid Layout</title>
 </head>
 <body>
-
-<div class="container">
-    <div class="header">
-        <p>Bank Meriah Euy</p>
-        <p>Jl. Surya Sumantri No 68, Bandung</p>
-    </div>
-
-    <div class="content">
-        <p>No : 007/UNDIAN/02/2014</p>
-        <p>Lamp: -</p>
-        <p>Hal: Pemenang Undian Bulanan Semua Untung</p>
-
-        <p>Kepada Yth. Bapak/Ibu <strong>James Bond</strong></p>
-
-        <p>Dengan hormat,</p>
-
-        <p>Sesuai dengan adanya program <strong>Undian Bulanan Semua Untung</strong> periode Februari 2014, bersama ini kami <strong>Bank Meriah Euy</strong> mengucapkan selamat kepada Anda karena telah memenangkan undian ini dengan hadiah <strong>1 buah iPhone 5(s)</strong>. Untuk pengambilan hadiah dapat dilakukan pada:</p>
-
-        <p><strong>Hari/Tanggal:</strong> Rabu, 12 Februari 2014</p>
-        <p><strong>Waktu:</strong> 10:00 - 15:00</p>
-        <p><strong>Tempat:</strong> Gedung Pusat Bank Meriah Euy</p>
-        <p><strong>Alamat:</strong> Jl. Surya Sumantri No 68, Bandung</p>
-
-        <p>Sehubungan dengan pengambilan hadiah undian, kami mohon agar Bapak/Ibu membawa dokumen berikut:</p>
-        <ul>
-            <li>KTP</li>
-            <li>Buku Tabungan di Bank Meriah Euy</li>
-        </ul>
-
-        <p><strong>Batas pengambilan hadiah undian sampai tanggal 19 Februari 2014.</strong></p>
-
-        <p>Kami ucapkan selamat dan terima kasih karena telah menabung di <strong>Bank Meriah Euy</strong>. Tingkatkan terus saldo Anda untuk memenangkan program <strong>Undian Bulanan Semua Untung</strong> berikutnya.</p>
-    </div>
-
-    <div class="signature">
-        <p>Hormat kami,</p>
-        <p>            </p>
-        <p><strong>GM Bank Meriah Euy</strong></p>
-        <p><strong>Sendy Ferdian Sujadi</strong></p>
-    </div>
-</div>
-
+    <table border="1" width="500" height="500" cellspacing="0" cellpadding="0" style="table-layout: fixed; border-collapse: collapse;">
+        <tr>
+            <td colspan="4" bgcolor="blue" align="center" width="400">A</td>
+            <td rowspan="4" bgcolor="yellow" align="center" width="100">D</td>
+        </tr>
+        <tr>
+            <td rowspan="4" bgcolor="yellow" align="center" width="100">G</td>
+            <td colspan="2" bgcolor="red" align="center" width="200">B</td>
+            <td rowspan="2" bgcolor="lime" align="center" width="100">C</td> 
+        </tr>
+        <tr>
+            <td rowspan="2" bgcolor="lime" align="center" width="100">F</td> 
+            <td bgcolor="black" align="center" width="100"><span style="color: white;">X</span></td>
+        </tr>
+        <tr>
+            <td colspan="2" bgcolor="red" align="center" width="200">E</td>
+        </tr>
+        <tr>
+            <td colspan="4" bgcolor="blue" align="center" width="400">H</td>
+        </tr>
+    </table>
 </body>
 </html>
